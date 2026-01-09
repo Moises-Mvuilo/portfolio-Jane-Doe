@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Portfólio de Jane Doe, uma desenvolvedora web
+    apaixonada por criar experiências digitais envolventes e
+    intuitivas. Conheça meus projetos e serviços.">
+    <meta name="keywords"
+    content="Jane Doe, desenvolvedora web, web developer,
+    front-end, back-end, UX/UI, portfólio, projetos web, serviços de
+    desenvolvimento web">
+    <meta name="author" content="Jane Doe">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
@@ -19,7 +28,7 @@
 
         <nav class="navbar navbar-expand-lg fw-bold ">
             <div class="container-fluid">
-                <a class="navbar-brand logo " href="#"><p>JANE DOE</p><p>PORTFOLIO</p></a>
+                <a class="navbar-brand logo " href="index.html"><p>JANE DOE</p><p>PORTFOLIO</p></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,7 +36,7 @@
                 <div class="navbar-collapse collapse fs-5 col-md-5" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll gap-1" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" aria-disabled="true" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" aria-disabled="true" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="sobre.html">Sobre</a>
@@ -38,16 +47,14 @@
                                 Projetos
                             </a>
                             <ul class="dropdown-menu bg-dark fs-5 ">
-                                <li><a class="dropdown-item navbar-text fw-bold" aria-disabled="true" href="#">Action</a></li>
-                                <li><a class="dropdown-item navbar-text fw-bold" aria-disabled="true" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item navbar-text fw-bold" aria-disabled="true" href="#">Something else here</a></li>
+                               <li><a class="dropdown-item navbar-text fw-bold" aria-disabled="true" href="#">Front-end</a></li>
+                                <li><a class="dropdown-item navbar-text fw-bold" aria-disabled="true" href="#">Back-end</a></li>
+                                <li><a class="dropdown-item navbar-text fw-bold" aria-disabled="true" href="#">redes de computadores</a></li>
+                                <li><a class="dropdown-item navbar-text fw-bold" aria-disabled="true" href="#">Telecomunicações</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-disabled="true" href="#">Serviços</a>
+                            <a class="nav-link" aria-disabled="true" href="servicos.html">Serviços</a>
                             </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-disabled="true" href="contactos.html">Contactos</a>
@@ -69,7 +76,7 @@
         <div class="row mb-5">
             <div class="col-md-5">
                 <img src="imagens/jane doe.jpg" alt="Foto de
-Jane Doe" class="img-fluid">
+        Jane Doe" class="img-fluid">
             </div>
             <div class="col-md-7 align-self-center">
                 <h1>Olá. Eu sou a Jane Doe e sou web
@@ -83,7 +90,7 @@ Jane Doe" class="img-fluid">
                 <p>Sou apaixonada por criar experiências digitais envolventes e intuitivas. Posso ajudar a sua ideia em
                     realidade!</p>
 
-                <a class="btn btn-primary" href="projetgos.html" target="_blank">Conhença o meu trabalho</a>
+                <a class="btn btn-primary" href="servicos.html" target="_blank">Conhença o meu trabalho</a>
             </div>
         </div>
 
@@ -117,51 +124,7 @@ Jane Doe" class="img-fluid">
 
         <!--Carossel de projetos-->
         
-        <div id="carouselExampleDark" class="carousel carousel-dark slide ">
-            <div class=" carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              
-            </div>
-
-            <div class="carousel-inner">
-                <div class="carousel-item active " data-bs-interval="10000">
-                    <img src="imagens/e-commerce-.jpg" class="d-block" w-100 alt="Projeto e-commerce">
-
-                    <div class="carousel-caption d-nome d-md-block">
-                        <h5 style="color: #cff250; font-family: Lato, sans-serif; font-size: 1.5rem;">E-commerce</h5>
-                        <p>Desenvolvimento de uma plataforma de e-commerce personalizavel e otimizada para vendas online</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="imagens/mobileapp.jpeg" class="d-block w-100" alt="Projeto app mobile">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 style="color: #cff250; font-family: Lato, sans-serif; font-size: 1.5rem;">Aplicacao movel com design minimalista e recursos interativos.</h5>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="imagens/website.png" class="d-block w-100" alt="Projeto site institucional">
-                    <div class="carousel-caption d-md-block">
-                        <h5 style="color: #cff250; font-family: Lato, sans-serif; font-size: 1.5rem;">Site institucional</h5>
-                        <p>Construcao de um site institucional moderno e responsivo para melhorar a presenca digital</p>
-                    </div>
-                </div>
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
-
+      
 
 
         <section class="mb-5">
